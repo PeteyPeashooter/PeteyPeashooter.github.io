@@ -8,6 +8,6 @@
 | --------------------- | ------------------ |
 | the one in production | :white_check_mark: |
 
-## Reporting a Vulnerabilit
+## Reporting a Vulnerability
 
 it's a website
