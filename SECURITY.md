@@ -11,3 +11,5 @@
 ## Reporting a Vulnerability
 
 it's a website
+
+#Why
