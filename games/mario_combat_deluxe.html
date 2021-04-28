@@ -1,18 +1,8 @@
 <html>
   <head>
+    <script src="https://raw.githubusercontent.com/swf2js/swf2js/master/swf2js.js"></script>
   </head>
   <body>
-    <span id=container></span>
-    <script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.load("Mario_Combat_Deluxe.swf");
-    });
-</script>
-<script src="ruffle.js"></script>
+    <span id=container><script>swf2js.load('mario_combat_deluxe.swf')<script></span>
   </body>
 </html>
