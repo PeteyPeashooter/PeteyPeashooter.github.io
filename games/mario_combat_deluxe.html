@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="../resources/ruffle.js"></script>
+    <script>
+      player = ruffle.createPlayer();
+      player.config = {
+        autoplay: "off",
+    </script>
+  </head>
+  <body>
+    <span id=container></span>
+        <script>
+           window.RufflePlayer = window.RufflePlayer || {};
+           window.addEventListener("load", (event) => {
+             ruffle = window.RufflePlayer.newest();
+             container = document.getElementById("container");
+             container.appendChild(player);
+           player.load("mario_combat_deluxe.swf");
+           });
+         </script>
